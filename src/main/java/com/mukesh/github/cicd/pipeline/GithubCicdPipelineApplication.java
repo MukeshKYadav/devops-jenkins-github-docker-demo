@@ -11,7 +11,7 @@ public class GithubCicdPipelineApplication {
 
 	@GetMapping("/welcome")
 	public String greetings() {
-		return "Welcome to Jenkins Github Cicd Pipeline Application Demo";
+		return "Welcome to Github Actions Cicd Pipeline Application Demo";
 	}
 
 	public static void main(String[] args) {
