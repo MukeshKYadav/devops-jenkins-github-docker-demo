@@ -25,11 +25,12 @@ public class GithubCicdPipelineApplication {
 		cd E:\spring-boot-projects\github-cicd-pipeline
 		git init
 		git status
-		git add README.md
+		git add src
+		git add pom.xml
 		git commit -m "first commit"
-		git branch -M main
+		git branch -M master
 		git remote add origin https://github.com/MukeshKYadav/devops-jenkins-github-docker-demo.git
-		git push -u origin main
+		git push -u origin master
 
 		// Not Required, can be added from Remote server as well.
 		echo "# devops-jenkins-github-docker-demo" >> README.md
