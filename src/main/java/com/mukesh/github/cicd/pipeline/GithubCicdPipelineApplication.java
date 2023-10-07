@@ -34,6 +34,11 @@ public class GithubCicdPipelineApplication {
 
 		// Not Required, can be added from Remote server as well.
 		echo "# devops-jenkins-github-docker-demo" >> README.md
+
+		// to get the docker image to your local,use below command
+		docker pull mukeshyadav2023/springboot-github-actions-demo:latest
+		// To run this docker image, can be run directly from docker desktop, by clicking on Run, Else
+		docker run -p 8080:8080 mukeshyadav2023/springboot-github-actions-demo
 		*/
 	}
 }
